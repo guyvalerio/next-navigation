@@ -18,4 +18,9 @@
 			clear: both;
 		}
 	}
+	@include oGridRespondTo(XL) {
+		&:nth-child(6n+1) {
+			clear: both;
+		}
+	}
 }
