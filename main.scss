@@ -1,4 +1,5 @@
 @import "o-grid/main";
+@import "next-sass-setup/main";
 
 .next-navigation,
 .next-navigation__group__items {
@@ -9,10 +10,16 @@
 
 .next-navigation--all {
 	@include oGridRow();
+	background-color: $next-grey-dark;
 }
 
 .next-navigation__group {
-	@include oGridColumn((default: 12, M: 4, L:2));
+	@include oGridColumn((default: 12, S: 6, M: 4, L:2));
+	@include oGridRespondTo(S, $until: M) {
+		&:nth-child(2n+1) {
+			clear: both;
+		}
+	}
 	@include oGridRespondTo(M, $until: L) {
 		&:nth-child(3n+1) {
 			clear: both;
@@ -22,5 +29,29 @@
 		&:nth-child(6n+1) {
 			clear: both;
 		}
+	}
+}
+
+.next-navigation a {
+	font-family: $fontSans;
+	color: $next-grey-lighter;
+	text-decoration: none;
+	padding: 5px;
+	display: block;
+	font-weight: 300;
+	&:hover {
+		background-color: $next-blue;
+		color: $next-white;
+	}
+}
+
+
+.next-navigation__group__header {
+	margin: 0;
+	border-bottom: 1px solid $next-grey-dark3;
+	a {
+		color: $next-white;
+		font-size: 18px;
+		font-weight: 500;
 	}
 }
