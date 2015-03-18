@@ -12,13 +12,13 @@
 }
 
 .next-navigation__group {
-	@include oGridColumn((default: 12, M: 4, XL:2));
-	@include oGridRespondTo(M, $until: XL) {
+	@include oGridColumn((default: 12, M: 4, L:2));
+	@include oGridRespondTo(M, $until: L) {
 		&:nth-child(3n+1) {
 			clear: both;
 		}
 	}
-	@include oGridRespondTo(XL) {
+	@include oGridRespondTo(L) {
 		&:nth-child(6n+1) {
 			clear: both;
 		}
