@@ -1,0 +1,19 @@
+{
+    "description": "Experimental Responsive Financial Times navigation",
+    "origamiVersion": 1,
+    "origamiType": "module",
+    "demos": [
+        {
+            "path": "/demos/all.html",
+            "expanded": true,
+            "description": ""
+        },
+        {
+            "path": "/demos/top-level.html",
+            "expanded": true,
+            "description": ""
+        }
+    ],
+    "supportStatus": "experimental",
+    "support": "next.team@ft.com"
+}

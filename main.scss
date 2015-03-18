@@ -1,0 +1,21 @@
+@import "o-grid/main";
+
+.next-navigation,
+.next-navigation__group__items {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.next-navigation--all {
+	@include oGridRow();
+}
+
+.next-navigation__group {
+	@include oGridColumn((default: 12, M: 4, XL:2));
+	@include oGridRespondTo(M, $until: XL) {
+		&:nth-child(3n+1) {
+			clear: both;
+		}
+	}
+}
