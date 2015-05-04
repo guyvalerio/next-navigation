@@ -1,0 +1,8 @@
+@include oColorsSetUseCase(next-navigation, background, 'green');
+
+@include oColorsSetUseCase(next-navigation-link, text, 'next-grey-lighter');
+@include oColorsSetUseCase(next-navigation-link-hover, background, 'white');
+@include oColorsSetUseCase(next-navigation-link-hover, text, 'next-blue');
+
+@include oColorsSetUseCase(next-navigation-group-header, border, 'grey-tint3');
+@include oColorsSetUseCase(next-navigation-group-header-link, text, 'white');

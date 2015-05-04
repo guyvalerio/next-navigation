@@ -1,5 +1,5 @@
-@import "o-grid/main";
 @import "next-sass-setup/main";
+@import "src/scss/color-use-cases";
 
 .next-navigation,
 .next-navigation__group__items {
@@ -10,11 +10,13 @@
 
 .next-navigation--all {
 	@include oGridRow();
-	background-color: $next-grey-dark;
+	background-color: oColorsGetColorFor(next-navigation, background);
 }
 
 .next-navigation__group {
 	@include oGridColumn((default: 12, S: 6, M: 4, L:2));
+	margin: 10px 0;
+
 	@include oGridRespondTo(S, $until: M) {
 		&:nth-child(2n+1) {
 			clear: both;
@@ -30,28 +32,29 @@
 			clear: both;
 		}
 	}
-	margin: 10px 0;
 }
 
 .next-navigation a {
+	@include oColorsFor(next-navigation-link);
 	font-family: $fontSans;
-	color: $next-grey-lighter;
 	text-decoration: none;
 	padding: 5px;
 	display: block;
 	font-weight: 300;
-	&:hover {
-		background-color: $next-blue;
-		color: $next-white;
+
+	&:hover,
+	&:focus {
+		@include oColorsFor(next-navigation-link-hover);
 	}
 }
 
 
 .next-navigation__group__header {
 	margin: 0;
-	border-bottom: 1px solid $next-grey-dark3;
+	border-bottom: 1px solid oColorsGetColorFor(next-navigation-group-header, border);
+
 	a {
-		color: $next-white;
+		@include oColorsFor(next-navigation-group-header-link);
 		font-size: 18px;
 		font-weight: 500;
 	}

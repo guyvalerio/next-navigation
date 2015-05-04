@@ -1,9 +1,7 @@
 {
   "name": "next-navigation",
   "dependencies": {
-    "o-fonts": "^1.4.2",
-    "o-grid": "^3.0.0",
-    "next-sass-setup": "^5.2.0"
+    "next-sass-setup": "^6.0.0"
   },
   "main": [
     "main.scss"
