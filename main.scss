@@ -36,7 +36,6 @@
 
 .next-navigation a {
 	@include oColorsFor(next-navigation-link);
-	font-family: $fontSans;
 	text-decoration: none;
 	padding: 5px;
 	display: block;
