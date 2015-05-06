@@ -1,7 +1,7 @@
 {
   "name": "next-navigation",
   "dependencies": {
-    "next-sass-setup": "^6.0.0"
+    "next-sass-setup": "^5.6.0"
   },
   "main": [
     "main.scss"
