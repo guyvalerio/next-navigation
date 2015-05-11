@@ -4,6 +4,7 @@ clean:
 	git clean -fxd
 
 install:
+	npm install origami-build-tools
 	origami-build-tools install
 test:
 	origami-build-tools verify
