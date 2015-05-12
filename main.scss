@@ -15,6 +15,8 @@
 
 .next-navigation__group {
 	@include oGridColumn((default: 12, S: 6, M: 4, L:2));
+	margin: 10px 0;
+
 	@include oGridRespondTo(S, $until: M) {
 		&:nth-child(2n+1) {
 			clear: both;
@@ -30,7 +32,6 @@
 			clear: both;
 		}
 	}
-	margin: 10px 0;
 }
 
 .next-navigation a {

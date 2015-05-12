@@ -6,10 +6,12 @@ clean:
 install:
 	npm install origami-build-tools
 	origami-build-tools install
+
 test:
-	origami-build-tools verify
+	nbt verify --skip-layout-checks
+
 build:
-	origami-build-tools build
+	nbt build
 
 watch:
 	origami-build-tools demo --local --watch

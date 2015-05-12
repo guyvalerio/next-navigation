@@ -1,0 +1,302 @@
+[
+    {
+        "name": "UK",
+        "href": "/stream/sections/uk",
+        "children": [
+            {
+                "name": "Business & Economy",
+                "href": "/stream/sections/business%20%26%20economy"
+            },
+            {
+                "name": "Politics & Policy",
+                "href": "/stream/sections/politics%20%26%20policy"
+            },
+            {
+                "name": "Companies",
+                "href": "/stream/sections/companies"
+            },
+            {
+                "name": "Small Companies",
+                "href": "/stream/sections/small%20companies"
+            },
+            {
+                "name": "General Election",
+                "href": "/stream/sections/general%20election"
+            }
+        ]
+    },
+    {
+        "name": "World",
+        "href": "/stream/sections/world",
+        "children": [
+            {
+                "name": "Africa",
+                "href": "/stream/sections/africa"
+            },
+            {
+                "name": "Asia Pacific",
+                "href": "/stream/sections/asia%20pacific"
+            },
+            {
+                "name": "China",
+                "href": "/stream/sections/china"
+            },
+            {
+                "name": "Europe",
+                "href": "/stream/sections/europe"
+            },
+            {
+                "name": "Middle East & North Africa",
+                "href": "/stream/sections/middle%20east%20&%20north%20africa"
+            },
+            {
+                "name": "US & Canada",
+                "href": "/stream/sections/us%20&%20canada"
+            },
+            {
+                "name": "Politics",
+                "href": "/stream/sections/politics"
+            },
+            {
+                "name": "Global Economy",
+                "href": "/stream/sections/global%20economy"
+            },
+            {
+                "name": "Science & Environment",
+                "href": "/stream/sections/science%20&%20environment"
+            }
+        ]
+    },
+    {
+        "name": "Companies",
+        "href": "/stream/sections/companies",
+        "children": [
+            {
+                "name": "Energy",
+                "href": "/stream/sections/energy"
+            },
+            {
+                "name": "Financials",
+                "href": "/stream/sections/financials"
+            },
+            {
+                "name": "Health",
+                "href": "/stream/sections/health"
+            },
+            {
+                "name": "Industrials",
+                "href": "/stream/sections/industrials"
+            },
+            {
+                "name": "Luxury",
+                "href": "/stream/sections/luxury"
+            },
+            {
+                "name": "Media",
+                "href": "/stream/sections/media"
+            },
+            {
+                "name": "Retail & Consumer",
+                "href": "/stream/sections/retail%20%26%20consumer"
+            },
+            {
+                "name": "Technology",
+                "href": "/stream/sections/technology"
+            },
+            {
+                "name": "Telecoms",
+                "href": "/stream/sections/telecoms"
+            },
+            {
+                "name": "Transport",
+                "href": "/stream/sections/transport"
+            }
+        ]
+    },
+    {
+        "name": "Markets",
+        "href": "/stream/sections/markets",
+        "children": [
+            {
+                "name": "Markets Data",
+                "href": "http://markets.ft.com/research/Markets/Overview"
+            },
+            {
+                "name": "Portfolio",
+                "href": "http://portfolio.ft.com/dashboard/"
+            },
+            {
+                "name": "Fund Management",
+                "href": "/stream/sections/ftfm%20fund%20management"
+            },
+            {
+                "name": "Trading",
+                "href": "/stream/sections/ft%20trading%20room"
+            },
+            {
+                "name": "Equities",
+                "href": "/stream/sections/equities"
+            },
+            {
+                "name": "Currencies",
+                "href": "/stream/sections/currencies"
+            },
+            {
+                "name": "Capital Markets",
+                "href": "/stream/sections/capital%20markets"
+            },
+            {
+                "name": "Commodities",
+                "href": "/stream/sections/commodities"
+            },
+            {
+                "name": "Emerging Markets",
+                "href": "/stream/sections/emerging%20markets"
+            }
+        ]
+    },
+    {
+        "name": "Comment",
+        "href": "/stream/sections/comment",
+        "children": [
+            {
+                "name": "Columnists",
+                "href": "/stream/sections/columnists"
+            },
+            {
+                "name": "Letters",
+                "href": "/stream/sections/letters"
+            },
+            {
+                "name": "FT View",
+                "href": "/stream/sections/ft%20view"
+            },
+            {
+                "name": "The Big Read",
+                "href": "/stream/sections/the%20big%20read"
+            },
+            {
+                "name": "Opinion",
+                "href": "/stream/sections/opinion"
+            },
+            {
+                "name": "Obituaries",
+                "href": "/stream/sections/obituaries"
+            }
+        ]
+    },
+    {
+        "name": "Management",
+        "href": "/stream/sections/comment",
+        "children": [
+            {
+                "name": "Business Education",
+                "href": "/stream/sections/business%20education"
+            },
+            {
+                "name": "Business School Rankings",
+                "href": "http://rankings.ft.com/businessschoolrankings/rankings"
+            },
+            {
+                "name": "Entrepreneurship",
+                "href": "/stream/sections/entrepreneurship"
+            },
+            {
+                "name": "Business Books",
+                "href": "/stream/sections/business%20books"
+            },
+            {
+                "name": "Recruitment / Careers",
+                "href": "/stream/sections/recruitment"
+            }
+        ]
+    },
+    {
+        "name": "Life & Arts",
+        "href": "/stream/sections/life%20%26%20arts",
+        "children": [
+            {
+                "name": "House & Home",
+                "href": "/stream/sections/house%20%26%20home"
+            },
+            {
+                "name": "Travel",
+                "href": "/stream/sections/travel"
+            },
+            {
+                "name": "Style",
+                "href": "/stream/sections/style"
+            },
+            {
+                "name": "Books",
+                "href": "/stream/sections/books"
+            },
+            {
+                "name": "Music",
+                "href": "/stream/sections/music"
+            },
+            {
+                "name": "Film & Television",
+                "href": "/stream/sections/film%20%26%20television"
+            },
+            {
+                "name": "Theatre",
+                "href": "/stream/sections/theatre"
+            },
+            {
+                "name": "Dance",
+                "href": "/stream/sections/dance"
+            },
+            {
+                "name": "Visual Arts",
+                "href": "/stream/sections/visual%20arts"
+            },
+            {
+                "name": "Food & Drink",
+                "href": "/stream/sections/food%20%26%20drink"
+            },
+            {
+                "name": "Personal Technology",
+                "href": "/stream/sections/personal%20technology"
+            },
+            {
+                "name": "Sport",
+                "href": "/stream/sections/sport"
+            }
+        ]
+    },
+    {
+        "name": "Personal Finance",
+        "href": "/stream/sections/personal%20finance",
+        "children": [
+            {
+                "name": "Property & Mortgages",
+                "href": "/stream/sections/property%20%26%20mortgages"
+            },
+            {
+                "name": "Investments",
+                "href": "/stream/sections/investments"
+            },
+            {
+                "name": "Trading",
+                "href": "/stream/sections/trading"
+            },
+            {
+                "name": "Pensions",
+                "href": "/stream/sections/pensions"
+            },
+            {
+                "name": "Tax",
+                "href": "/stream/sections/tax"
+            },
+            {
+                "name": "Banking & Savings",
+                "href": "/stream/sections/banking%20%26%20savings"
+            },
+            {
+                "name": "Advice",
+                "href": "/stream/sections/advice%20%26%20comment"
+            }
+        ]
+    }
+]
