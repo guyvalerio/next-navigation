@@ -5,5 +5,8 @@
   "dependencies": {
     "denodeify": "^1.2.1",
     "es6-promise": "^2.1.1"
+  },
+  "devDependencies": {
+    "next-build-tools": "^2.3.4"
   }
 }
