@@ -1,0 +1,44 @@
+[
+    {
+        "name": "World",
+        "href": "/stream/sections/world",
+        "children": [
+            {
+                "name": "Africa",
+                "href": "/stream/sections/africa"
+            },
+            {
+                "name": "Asia Pacific",
+                "href": "/stream/sections/asia%20pacific"
+            },
+            {
+                "name": "China",
+                "href": "/stream/sections/china"
+            },
+            {
+                "name": "Europe",
+                "href": "/stream/sections/europe"
+            },
+            {
+                "name": "Middle East & North Africa",
+                "href": "/stream/sections/middle%20east%20&%20north%20africa"
+            },
+            {
+                "name": "US & Canada",
+                "href": "/stream/sections/us%20&%20canada"
+            },
+            {
+                "name": "Politics",
+                "href": "/stream/sections/politics"
+            },
+            {
+                "name": "Global Economy",
+                "href": "/stream/sections/global%20economy"
+            },
+            {
+                "name": "Science & Environment",
+                "href": "/stream/sections/science%20&%20environment"
+            }
+        ]
+    }
+]
