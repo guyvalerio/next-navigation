@@ -9,6 +9,7 @@ module.exports = function (req, res, next) {
             next();
         })
         .catch(function (err) {
+            res.locals.nav = [];
             next();
         });
 
