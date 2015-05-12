@@ -1,12 +1,23 @@
 sudo: false
 language: node_js
 node_js:
-  - '0.12'
+- '0.12'
 cache:
   directories:
-    - node_modules
-    - bower_components
+  - node_modules
+  - bower_components
 install:
-  - make install
+- make install
 script:
-  - make test
+- make test
+before_deploy:
+- npm-prepublish --verbose
+deploy:
+  provider: npm
+  email: strategic.products@ft.com
+  api_key:
+    secure: M6fQssyfmkZLrKOJQ47G/Vgnfyvxk+kXdvKrQ0q3gUZ+9iuSkq+pL0r7zAu/ur7O0GqU4SBLR7X+ZkymqrHmGdCBElbZ6RfDU1eIyHmuGPL/VSrtbd5P5tFWp9bf5Si+n/Y7cNghHK6YqvT4r/TxLgEHu0cMbwW2SiW4YMcNjVI=
+  on:
+    tags: true
+    all_branches: true
+    repo: Financial-Times/next-navigation
