@@ -12,10 +12,7 @@ test:
 	nbt verify --skip-layout-checks
 
 build:
-	nbt build
+	gulp build
 
-watch:
-	origami-build-tools demo --local --watch
-
-run:
-	origami-build-tools demo --local
+demo:
+	obt demo --local

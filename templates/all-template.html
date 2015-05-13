@@ -1,0 +1,18 @@
+<ol class="next-navigation next-navigation--all">
+    {{#each all}}
+    <li class="next-navigation__group">
+        <h3 class="next-navigation__group__header">
+            <a class="next-navigation__link" href="{{href}}" data-trackable="{{name}}">{{name}}</a>
+        </h3>
+        {{#if children}}
+        <ol class="next-navigation__group__items">
+            {{#each children}}
+                <li class="next-navigation__group__item">
+                    <a class="next-navigation__link" href="{{href}}" data-trackable="{{name}}">{{name}}</a>
+                </li>
+            {{/each}}
+        </ol>
+        {{/if}}
+    </li>
+    {{/each}}
+</ol>

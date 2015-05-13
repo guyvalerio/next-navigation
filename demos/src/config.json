@@ -1,15 +1,11 @@
 {
   "options": {
-    "sass": "demos/src/demo.scss"
+    "sass": "main.scss"
   },
   "demos": [
     {
       "name": "all",
       "template": "templates/all.html"
-    },
-    {
-      "name": "top-level",
-      "template": "templates/top-level.html"
     }
   ]
 }
