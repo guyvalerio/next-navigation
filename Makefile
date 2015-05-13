@@ -1,11 +1,8 @@
 .PHONY: build
 
-clean:
-	git clean -fxd
-
 install:
 	npm install origami-build-tools
-	origami-build-tools install
+	obt install
 
 test:
 	gulp test

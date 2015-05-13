@@ -1,37 +1,5 @@
 [
     {
-        "name": "UK",
-        "id": "Ng==-U2VjdGlvbnM=",
-        "href": "/stream/sectionsId/Ng==-U2VjdGlvbnM=",
-        "children": [
-            {
-                "name": "Business & Economy",
-                "id": "Nw==-U2VjdGlvbnM=",
-                "href": "/stream/sectionsId/Nw==-U2VjdGlvbnM="
-            },
-            {
-                "name": "Politics & Policy",
-                "id": "OA==-U2VjdGlvbnM=",
-                "href": "/stream/sectionsId/OA==-U2VjdGlvbnM="
-            },
-            {
-                "name": "Companies",
-                "id": "NjM=-U2VjdGlvbnM=",
-                "href": "/stream/sectionsId/NjM=-U2VjdGlvbnM="
-            },
-            {
-                "name": "Small Companies",
-                "id": "NjQ=-U2VjdGlvbnM=",
-                "href": "/stream/sectionsId/NjQ=-U2VjdGlvbnM="
-            },
-            {
-                "name": "General Election",
-                "id": "OTAzZjM5YTgtZGU1Ny00MjU5LTgxMmEtZGIzMGY4YTg5NDJi-VG9waWNz",
-                "href": "/stream/topicsId/OTAzZjM5YTgtZGU1Ny00MjU5LTgxMmEtZGIzMGY4YTg5NDJi-VG9waWNz"
-            }
-        ]
-    },
-    {
         "name": "World",
         "id": "MQ==-U2VjdGlvbnM=",
         "href": "/stream/sectionsId/MQ==-U2VjdGlvbnM=",
@@ -42,7 +10,7 @@
                 "href": "/stream/sectionsId/MjI=-U2VjdGlvbnM="
             },
             {
-                "name": "Asia-Pacific",
+                "name": "Asia Pacific",
                 "id": "MTE=-U2VjdGlvbnM=",
                 "href": "/stream/sectionsId/MTE=-U2VjdGlvbnM="
             },
@@ -57,9 +25,19 @@
                 "href": "/stream/sectionsId/OQ==-U2VjdGlvbnM="
             },
             {
+                "name": "Latin America",
+                "id": "TnN0ZWluX0dMX0xhdGluQW1lcmljYQ==-R0w=",
+                "href": "/stream/regionsId/TnN0ZWluX0dMX0xhdGluQW1lcmljYQ==-R0w="
+            },
+            {
                 "name": "Middle East & North Africa",
                 "id": "MTY=-U2VjdGlvbnM=",
                 "href": "/stream/sectionsId/MTY=-U2VjdGlvbnM="
+            },
+            {
+                "name": "UK",
+                "id": "Ng==-U2VjdGlvbnM=",
+                "href": "/stream/sectionsId/Ng==-U2VjdGlvbnM="
             },
             {
                 "name": "US & Canada",
@@ -124,7 +102,7 @@
                 "href": "/stream/sectionsId/NDU=-U2VjdGlvbnM="
             },
             {
-                "name": "Technology",
+                "name": "Technology Sector",
                 "id": "NTM=-U2VjdGlvbnM=",
                 "href": "/stream/sectionsId/NTM=-U2VjdGlvbnM="
             },
@@ -182,29 +160,14 @@
                 "name": "Commodities",
                 "id": "MTA1-U2VjdGlvbnM=",
                 "href": "/stream/sectionsId/MTA1-U2VjdGlvbnM="
-            },
-            {
-                "name": "Emerging Markets",
-                "id": "MTA2-U2VjdGlvbnM=",
-                "href": "/stream/sectionsId/MTA2-U2VjdGlvbnM="
             }
         ]
     },
     {
-        "name": "Comment",
+        "name": "Opinion",
         "id": "MTE2-U2VjdGlvbnM=",
         "href": "/stream/sectionsId/MTE2-U2VjdGlvbnM=",
         "children": [
-            {
-                "name": "Columnists",
-                "id": "MTE3-U2VjdGlvbnM=",
-                "href": "/stream/sectionsId/MTE3-U2VjdGlvbnM="
-            },
-            {
-                "name": "Letters",
-                "id": "MTIy-U2VjdGlvbnM=",
-                "href": "/stream/sectionsId/MTIy-U2VjdGlvbnM="
-            },
             {
                 "name": "FT View",
                 "id": "NGYyMTRiYTMtZWQ2Ny00MDc3LTgwODctOTFkZmQ3OTM2Yjhi-U2VjdGlvbnM=",
@@ -216,9 +179,14 @@
                 "href": "/stream/sectionsId/MTE4-U2VjdGlvbnM="
             },
             {
-                "name": "Opinion",
-                "id": "MTE5-U2VjdGlvbnM=",
-                "href": "/stream/sectionsId/MTE5-U2VjdGlvbnM="
+                "name": "Columnists",
+                "id": "MTE3-U2VjdGlvbnM=",
+                "href": "/stream/sectionsId/MTE3-U2VjdGlvbnM="
+            },
+            {
+                "name": "Letters",
+                "id": "MTIy-U2VjdGlvbnM=",
+                "href": "/stream/sectionsId/MTIy-U2VjdGlvbnM="
             },
             {
                 "name": "Obituaries",
@@ -228,7 +196,7 @@
         ]
     },
     {
-        "name": "Management",
+        "name": "Work & Career",
         "id": "MTI1-U2VjdGlvbnM=",
         "href": "/stream/sectionsId/MTI1-U2VjdGlvbnM=",
         "children": [
@@ -252,7 +220,7 @@
                 "href": "/stream/sectionsId/MTM4-U2VjdGlvbnM="
             },
             {
-                "name": "Recruitment / Careers",
+                "name": "Recruitment and Careers",
                 "id": "ZjU2ZGIyNDMtNWYwOS00YzcwLWJmN2MtYjE1OGNiN2Y1OTVl-U2VjdGlvbnM=",
                 "href": "/stream/sectionsId/ZjU2ZGIyNDMtNWYwOS00YzcwLWJmN2MtYjE1OGNiN2Y1OTVl-U2VjdGlvbnM="
             }
@@ -263,21 +231,6 @@
         "id": "MTQ4-U2VjdGlvbnM=",
         "href": "/stream/sectionsId/MTQ4-U2VjdGlvbnM=",
         "children": [
-            {
-                "name": "House & Home",
-                "id": "MTU3-U2VjdGlvbnM=",
-                "href": "/stream/sectionsId/MTU3-U2VjdGlvbnM="
-            },
-            {
-                "name": "Travel",
-                "id": "MTY1-U2VjdGlvbnM=",
-                "href": "/stream/sectionsId/MTY1-U2VjdGlvbnM="
-            },
-            {
-                "name": "Style",
-                "id": "MTU4-U2VjdGlvbnM=",
-                "href": "/stream/sectionsId/MTU4-U2VjdGlvbnM="
-            },
             {
                 "name": "Books",
                 "id": "MTU5-U2VjdGlvbnM=",
@@ -294,19 +247,14 @@
                 "href": "/stream/sectionsId/MTUy-U2VjdGlvbnM="
             },
             {
-                "name": "Theatre",
-                "id": "ZTc4Y2QxMmUtZjVmOC00ODg5LTk2MzQtYzk3ZTdlNTdiYjUy-U2VjdGlvbnM=",
-                "href": "/stream/sectionsId/ZTc4Y2QxMmUtZjVmOC00ODg5LTk2MzQtYzk3ZTdlNTdiYjUy-U2VjdGlvbnM="
+                "name": "Style",
+                "id": "MTU4-U2VjdGlvbnM=",
+                "href": "/stream/sectionsId/MTU4-U2VjdGlvbnM="
             },
             {
-                "name": "Dance",
-                "id": "YmQwN2RjMmQtNzliZS00NTdkLTkxOTctNmNiMjE5NTYwNDQx-U2VjdGlvbnM=",
-                "href": "/stream/sectionsId/YmQwN2RjMmQtNzliZS00NTdkLTkxOTctNmNiMjE5NTYwNDQx-U2VjdGlvbnM="
-            },
-            {
-                "name": "Visual Arts",
-                "id": "MTU1-U2VjdGlvbnM=",
-                "href": "/stream/sectionsId/MTU1-U2VjdGlvbnM="
+                "name": "House & Home",
+                "id": "MTU3-U2VjdGlvbnM=",
+                "href": "/stream/sectionsId/MTU3-U2VjdGlvbnM="
             },
             {
                 "name": "Food & Drink",
@@ -314,9 +262,9 @@
                 "href": "/stream/sectionsId/MTU2-U2VjdGlvbnM="
             },
             {
-                "name": "Personal Technology",
-                "id": "OTM5ZWYwODQtMGVhYS00MzBlLWE0NjctODNmMmUwYWIxOGJl-QnJhbmRz",
-                "href": "/stream/brandId/OTM5ZWYwODQtMGVhYS00MzBlLWE0NjctODNmMmUwYWIxOGJl-QnJhbmRz"
+                "name": "FT Magazine",
+                "id": "OTYxNmI3YWMtY2M1OS00N2RkLWJlNWEtOGZjOGQ3ODE5YmQx-U2VjdGlvbnM=",
+                "href": "/stream/sectionsId/OTYxNmI3YWMtY2M1OS00N2RkLWJlNWEtOGZjOGQ3ODE5YmQx-U2VjdGlvbnM="
             },
             {
                 "name": "Sport",
@@ -335,6 +283,23 @@
         "href": "//ftalphaville.ft.com"
     },
     {
+        "name": "Technology",
+        "id": "NTM=-U2VjdGlvbnM=",
+        "href": "stream/sectionsId/NTM=-U2VjdGlvbnM=",
+        "children": [
+            {
+                "name": "Personal Technology",
+                "id": "OTM5ZWYwODQtMGVhYS00MzBlLWE0NjctODNmMmUwYWIxOGJl-QnJhbmRz",
+                "href": "/stream/brandId/OTM5ZWYwODQtMGVhYS00MzBlLWE0NjctODNmMmUwYWIxOGJl-QnJhbmRz"
+            },
+            {
+                "name": "Technology Sector",
+                "id": "NTM=-U2VjdGlvbnM=",
+                "href": "/stream/sectionsId/NTM=-U2VjdGlvbnM="
+            }
+        ]
+    },
+    {
         "name": "Personal Finance",
         "id": "MTQw-U2VjdGlvbnM=",
         "href": "/stream/sectionsId/MTQw-U2VjdGlvbnM=",
@@ -350,7 +315,7 @@
                 "href": "/stream/sectionsId/MTQz-U2VjdGlvbnM="
             },
             {
-                "name": "Trading",
+                "name": "Trading Advice",
                 "id": "OTY=-U2VjdGlvbnM=",
                 "href": "/stream/sectionsId/OTY=-U2VjdGlvbnM="
             },
@@ -368,11 +333,6 @@
                 "name": "Banking & Savings",
                 "id": "MTQ2-U2VjdGlvbnM=",
                 "href": "/stream/sectionsId/MTQ2-U2VjdGlvbnM="
-            },
-            {
-                "name": "Advice",
-                "id": "MTQx-U2VjdGlvbnM=",
-                "href": "/stream/sectionsId/MTQx-U2VjdGlvbnM="
             }
         ]
     }
