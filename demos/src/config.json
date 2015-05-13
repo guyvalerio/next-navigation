@@ -6,14 +6,6 @@
     {
       "name": "all",
       "template": "templates/all.html"
-    },
-    {
-      "name": "all-top-level",
-      "template": "templates/all-top-level.html"
-    },
-    {
-      "name": "nav",
-      "template": "templates/nav.html"
     }
   ]
 }

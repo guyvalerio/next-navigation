@@ -13,7 +13,7 @@ gulp.task('test', function () {
 });
 
 gulp.task('build', function () {
-	return gulp.src('./templates/*-template.html')
+	return gulp.src('./templates/**/*-template.html')
 		.pipe(data(function () {
 			return {
 				all: require('./config/nav.json'),

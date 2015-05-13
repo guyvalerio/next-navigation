@@ -12,10 +12,7 @@ test:
 	nbt verify --skip-layout-checks
 
 build:
-	nbt build
-
-watch:
-	obt demo --local --watch
+	gulp build
 
 demo:
 	obt demo --local
