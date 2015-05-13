@@ -42,8 +42,9 @@
                 "href": "/stream/sectionsId/MjI=-U2VjdGlvbnM="
             },
             {
-                "name": "Asia Pacific",
-                "href": "/stream/sections/asia%20pacific"
+                "name": "Asia-Pacific",
+                "id": "MTE=-U2VjdGlvbnM=",
+                "href": "/stream/sectionsId/MTE=-U2VjdGlvbnM="
             },
             {
                 "name": "China",
@@ -77,7 +78,8 @@
             },
             {
                 "name": "Science & Environment",
-                "href": "/stream/sections/science%20&%20environment"
+                "id": "NTQ=-U2VjdGlvbnM=",
+                "href": "/stream/sectionsId/NTQ=-U2VjdGlvbnM="
             }
         ]
     },
@@ -310,10 +312,6 @@
                 "name": "Food & Drink",
                 "id": "MTU2-U2VjdGlvbnM=",
                 "href": "/stream/sectionsId/MTU2-U2VjdGlvbnM="
-            },
-            {
-                "name": "Personal Technology",
-                "href": "/stream/sections/personal%20technology"
             },
             {
                 "name": "Sport",
