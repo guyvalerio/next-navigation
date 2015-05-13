@@ -8,6 +8,7 @@ install:
 	origami-build-tools install
 
 test:
+	gulp test
 	nbt verify --skip-layout-checks
 
 build:
