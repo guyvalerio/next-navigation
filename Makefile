@@ -15,7 +15,7 @@ build:
 	nbt build
 
 watch:
-	origami-build-tools demo --local --watch
+	obt demo --local --watch
 
-run:
-	origami-build-tools demo --local
+demo:
+	obt demo --local

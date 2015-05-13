@@ -1,6 +1,6 @@
 {
   "options": {
-    "sass": "demos/src/demo.scss"
+    "sass": "main.scss"
   },
   "demos": [
     {
@@ -8,8 +8,12 @@
       "template": "templates/all.html"
     },
     {
-      "name": "top-level",
-      "template": "templates/top-level.html"
+      "name": "all-top-level",
+      "template": "templates/all-top-level.html"
+    },
+    {
+      "name": "nav",
+      "template": "templates/nav.html"
     }
   ]
 }
