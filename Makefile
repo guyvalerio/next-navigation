@@ -12,4 +12,5 @@ build:
 	gulp build
 
 demo:
-	obt demo --local
+	gulp build
+	obt demo --local --watch
