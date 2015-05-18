@@ -9,20 +9,20 @@ Includes
 
 ## Installation
 
- $ git clone git@github.com:Financial-Times/next-navigation.git
- $ cd next-navigation
- $ make install
+    $ git clone git@github.com:Financial-Times/next-navigation.git
+    $ cd next-navigation
+    $ make install
 
 ## Development
 
 Currently, the nav is defined by [nav.json](./config/nav.json). To make a change to the nav, updated the json file and
-build the tempaltes
+build the templates with
 
- $ make build
+    $ make build
 
 To view the demo
 
- $ make demo
+    $ make demo
 
 ## Todo
 
