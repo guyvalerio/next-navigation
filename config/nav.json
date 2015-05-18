@@ -293,8 +293,8 @@
                     },
                     {
                         "name": "Property",
-                        "id": ""
-                        "href": ""
+                        "id": "NjA=-U2VjdGlvbnM=",
+                        "href": "/stream/sectionsId/NjA=-U2VjdGlvbnM="
                     },
                     {
                         "name": "Financial Services",
@@ -454,17 +454,111 @@
             {
                 "name": "Fund Management",
                 "id": "NzI=-U2VjdGlvbnM=",
-                "href": "/stream/sectionsId/NzI=-U2VjdGlvbnM="
+                "href": "/stream/sectionsId/NzI=-U2VjdGlvbnM=",
+                "children": [
+                    {
+                        "name": "Regulation",
+                        "id": ""
+                        "href": ""
+                    },
+                    {
+                        "name": "ETFs",
+                        "id": ""
+                        "href": ""
+                    },
+                    {
+                        "name": "Investment Strategy",
+                        "id": ""
+                        "href": ""
+                    },
+                    {
+                        "name": "Pensions Industry",
+                        "id": ""
+                        "href": ""
+                    },
+                    {
+                        "name": "People in Fund Management",
+                        "id": ""
+                        "href": ""
+                    }
+                ]
+            },
+            {
+                "name": "Funds Directory",
+                "href": "http://funds.ft.com/uk/funds-directory/A"
+            },
+            {
+                "name": "Fund Screener",
+                "href": "http://funds.ft.com/uk/Screener"
             },
             {
                 "name": "Trading",
                 "id": "OTM=-U2VjdGlvbnM=",
-                "href": "/stream/sectionsId/OTM=-U2VjdGlvbnM="
+                "href": "/stream/sectionsId/OTM=-U2VjdGlvbnM=",
+                "children": [
+                    {
+                        "name": "Clearing & Settlement",
+                        "id": "OTc=-U2VjdGlvbnM=",
+                        "href": "/stream/sectionsId/OTc=-U2VjdGlvbnM="
+                    },
+                    {
+                        "name": "Developing Markets & Asia",
+                        "id": "YTNhYjQxOWItNGJlYi00NTFkLWExYmMtMjJhZDhhYzAyN2Zj-U2VjdGlvbnM=",
+                        "href": "/stream/sectionsId/YTNhYjQxOWItNGJlYi00NTFkLWExYmMtMjJhZDhhYzAyN2Zj-U2VjdGlvbnM="
+                    },
+                    {
+                        "name": "High Frequency Trading",
+                        "id": "NTdkMThlNDktODk4OC00NTVlLTkzM2UtNjI0MTJlNmE3ZTA4-U2VjdGlvbnM=",
+                        "href": "/stream/sectionsId/NTdkMThlNDktODk4OC00NTVlLTkzM2UtNjI0MTJlNmE3ZTA4-U2VjdGlvbnM="
+                    },
+                    {
+                        "name": "Markets Regulation",
+                        "id": "OTU=-U2VjdGlvbnM=",
+                        "href": "/stream/sectionsId/OTU=-U2VjdGlvbnM="
+                    },
+                    {
+                        "name": "Trading Technology",
+                        "id": "OTY=-U2VjdGlvbnM=",
+                        "href": "/stream/sectionsId/OTY=-U2VjdGlvbnM="
+                    },
+                    {
+                        "name": "Carbon Markets",
+                        "id": ""
+                        "href": ""
+                    },
+                    {
+                        "name": "Exchanges Consolidation",
+                        "id": "NDEwNWUyMTgtNjQ1My00N2FjLThjNTctMzU3ZWEyNjBiMWE3-U2VjdGlvbnM="
+                        "href": "/stream/sectionsId/NDEwNWUyMTgtNjQ1My00N2FjLThjNTctMzU3ZWEyNjBiMWE3-U2VjdGlvbnM="
+                    }
+                ]
             },
             {
                 "name": "Equities",
                 "id": "OTg=-U2VjdGlvbnM=",
-                "href": "/stream/sectionsId/OTg=-U2VjdGlvbnM="
+                "href": "/stream/sectionsId/OTg=-U2VjdGlvbnM=",
+                "children": [
+                    {
+                        "name": "US Equities",
+                        "id": "OTk=-U2VjdGlvbnM=",
+                        "href": "/stream/sectionsId/OTk=-U2VjdGlvbnM="
+                    },
+                    {
+                        "name": "UK Equities",
+                        "id": "MTAw-U2VjdGlvbnM=",
+                        "href": "/stream/sectionsId/MTAw-U2VjdGlvbnM="
+                    },
+                    {
+                        "name": "European Equities",
+                        "id": "MTAx-U2VjdGlvbnM=",
+                        "href": "/stream/sectionsId/MTAx-U2VjdGlvbnM="
+                    },
+                    {
+                        "name": "Asia-Pacific Equities",
+                        "id": "MTAy-U2VjdGlvbnM=",
+                        "href": "/stream/sectionsId/MTAy-U2VjdGlvbnM="
+                    }
+                ]
             },
             {
                 "name": "Currencies",
@@ -506,7 +600,103 @@
             {
                 "name": "Columnists",
                 "id": "MTE3-U2VjdGlvbnM=",
-                "href": "/stream/sectionsId/MTE3-U2VjdGlvbnM="
+                "href": "/stream/sectionsId/MTE3-U2VjdGlvbnM=",
+                "children": [
+                    {
+                        "name": "Janan Ganesh",
+                        "id": "YzViN2Q3OTEtZGViZC00YWRkLTk5ZWUtZTZlNDJiNGNkZWM5-QnJhbmRz"
+                        "href": "/stream/brandId/YzViN2Q3OTEtZGViZC00YWRkLTk5ZWUtZTZlNDJiNGNkZWM5-QnJhbmRz"
+                    },
+                    {
+                        "name": "John Gapper",
+                        "id": "QnJhbmRzXzg1-QnJhbmRz",
+                        "href": "/stream/brandId/QnJhbmRzXzg1-QnJhbmRz"
+                    },
+                    {
+                        "name": "John Kay",
+                        "id": "QnJhbmRzXzg3-QnJhbmRz",
+                        "href": "/stream/brandId/QnJhbmRzXzg3-QnJhbmRz"
+                    },
+                    {
+                        "name": "Luck Kellaway",
+                        "id": "YmI0YjZmZGItMmY0OS00YTRjLTg1ZTEtMTg0ZjgxMmJiYWYz-QnJhbmRz",
+                        "href": "/stream/brandId/YmI0YjZmZGItMmY0OS00YTRjLTg1ZTEtMTg0ZjgxMmJiYWYz-QnJhbmRz"
+                    },
+                    {
+                        "name": "Roula Khalaf",
+                        "id": "QnJhbmRzXzE2Mw==-QnJhbmRz"
+                        "href": "/stream/brandId/QnJhbmRzXzE2Mw==-QnJhbmRz"
+                    },
+                    {
+                        "name": "Edward Luce",
+                        "id": "M2RlZmZlZGYtNTI1My00YWZmLWEzM2EtZjRjZjQ0MTUwOTI2-QnJhbmRz",
+                        "href": "/stream/brandId/M2RlZmZlZGYtNTI1My00YWZmLWEzM2EtZjRjZjQ0MTUwOTI2-QnJhbmRz"
+                    },
+                    {
+                        "name": "John McDermott",
+                        "id": "Q0ItMDAwMTA2Ng==-QXV0aG9ycw==",
+                        "href": "/stream/authorsId/Q0ItMDAwMTA2Ng==-QXV0aG9ycw=="
+                    },
+                    {
+                        "name": "Wolfgang Munchau",
+                        "id": "QnJhbmRzXzIxMA==-QnJhbmRz",
+                        "href": "/stream/brandId/QnJhbmRzXzIxMA==-QnJhbmRz"
+                    },
+                    {
+                        "name": "David Pilling",
+                        "id": "QnJhbmRzXzM1-QnJhbmRz",
+                        "href": "/stream/brandId/QnJhbmRzXzM1-QnJhbmRz"
+                    },
+                    {
+                        "name": "Ingram Pinn",
+                        "href": "http://www.ft.com/cms/s/2/6a518006-cd49-11e1-92c1-00144feabdc0.html#slide0"
+                    },
+                    {
+                        "name": "Lisa Pollack",
+                        "id": "MTg3NzQ0NWQtODVhOC00YjQwLTkxNzgtYWUwMTdhYmVhYjAx-QnJhbmRz",
+                        "href": "/stream/brandId/MTg3NzQ0NWQtODVhOC00YjQwLTkxNzgtYWUwMTdhYmVhYjAx-QnJhbmRz"
+                    },
+                    {
+                        "name": "Gideon Rachman",
+                        "id": "QnJhbmRzXzYy-QnJhbmRz"
+                        "href": "/stream/brandId/QnJhbmRzXzYy-QnJhbmRz"
+                    },
+                    {
+                        "name": "Robert Shrimsley",
+                        "id": "QnJhbmRzXzE2MQ==-QnJhbmRz",
+                        "href": "/stream/brandId/QnJhbmRzXzE2MQ==-QnJhbmRz"
+                    },
+                    {
+                        "name": "Gary Silverman",
+                        "id": "MWNmYmNiOTQtMDk2OS00NTRjLTg4M2YtZWQ3ZmJkMWIwZjdm-QnJhbmRz",
+                        "href": "/stream/brandId/MWNmYmNiOTQtMDk2OS00NTRjLTg4M2YtZWQ3ZmJkMWIwZjdm-QnJhbmRz"
+                    },
+                    {
+                        "name": "Philip Stephens",
+                        "id": "NjAzZTgyODctN2M2Ny00N2Q5LTg0NjktOGZkMTU1ZTBmMjZh-QnJhbmRz",
+                        "href": "/stream/brandId/NjAzZTgyODctN2M2Ny00N2Q5LTg0NjktOGZkMTU1ZTBmMjZh-QnJhbmRz"
+                    },
+                    {
+                        "name": "Lawrence Summers",
+                        "id": "OTU2OTkwMTYtYTQxZi00OTVkLWIzZDktNmVhOWNmMjhkM2Fi-QnJhbmRz"
+                        "href": "/stream/brandId/OTU2OTkwMTYtYTQxZi00OTVkLWIzZDktNmVhOWNmMjhkM2Fi-QnJhbmRz"
+                    },
+                    {
+                        "name": "Gillian Tett",
+                        "id": "QnJhbmRzXzY0-QnJhbmRz",
+                        "href": "/stream/brandId/QnJhbmRzXzY0-QnJhbmRz"
+                    },
+                    {
+                        "name": "Patti Waldmeir",
+                        "id": "ZDgwNDVlN2QtNmRjYi00ODUzLWFiZWMtMzRmYjI4YmNmN2Fm-QnJhbmRz",
+                        "href": "/stream/brandId/ZDgwNDVlN2QtNmRjYi00ODUzLWFiZWMtMzRmYjI4YmNmN2Fm-QnJhbmRz"
+                    },
+                    {
+                        "name": "Martin Wolf",
+                        "id": "MTgwZTgxNzEtMmY4OS00YjMyLTg1ZjAtZDhlOTBiMGIzNWI2-QnJhbmRz",
+                        "href": "/stream/brandId/MTgwZTgxNzEtMmY4OS00YjMyLTg1ZjAtZDhlOTBiMGIzNWI2-QnJhbmRz"
+                    }
+                ]
             },
             {
                 "name": "Letters",
@@ -526,13 +716,40 @@
         "href": "/stream/sectionsId/MTI1-U2VjdGlvbnM=",
         "children": [
             {
-                "name": "Business Education",
-                "id": "MTI2-U2VjdGlvbnM=",
-                "href": "/stream/sectionsId/MTI2-U2VjdGlvbnM="
-            },
-            {
                 "name": "Business School Rankings",
                 "href": "http://rankings.ft.com/businessschoolrankings/rankings"
+            },
+            {
+                "name": "Business Education",
+                "id": "MTI2-U2VjdGlvbnM=",
+                "href": "/stream/sectionsId/MTI2-U2VjdGlvbnM=",
+                "children": [
+                    {
+                        "name": "Applying for a Masters",
+                        "id": "MTBjOGEzNGMtMjFlOS00YmQ1LTg4NmQtMTE4NDJkZmM1NmUx-U2VjdGlvbnM="
+                        "href": "/stream/sectionsId/MTBjOGEzNGMtMjFlOS00YmQ1LTg4NmQtMTE4NDJkZmM1NmUx-U2VjdGlvbnM="
+                    },
+                    {
+                        "name": "Applying to a Business School",
+                        "id": "ZTNhOTEwNjgtZjA2OS00MWQ1LTkyODYtNWE1MDYzOGU2MTBm-U2VjdGlvbnM=",
+                        "href": "/stream/sectionsId/ZTNhOTEwNjgtZjA2OS00MWQ1LTkyODYtNWE1MDYzOGU2MTBm-U2VjdGlvbnM="
+                    },
+                    {
+                        "name": "Finding a Job",
+                        "id": "NDBlNzBjZjAtZTgxYy00YjU2LWEwOWQtNjU1MzAzNWI3Yjk5-U2VjdGlvbnM=",
+                        "href": "/stream/sectionsId/NDBlNzBjZjAtZTgxYy00YjU2LWEwOWQtNjU1MzAzNWI3Yjk5-U2VjdGlvbnM="
+                    },
+                    {
+                        "name": "Starting a Business",
+                        "id": "Zjk2OTYyOWEtMDI5MS00YzIyLWIzZGQtYWM1MmMxODdiZmY0-U2VjdGlvbnM=",
+                        "href": "/stream/sectionsId/Zjk2OTYyOWEtMDI5MS00YzIyLWIzZGQtYWM1MmMxODdiZmY0-U2VjdGlvbnM="
+                    },
+                    {
+                        "name": "Executive Education",
+                        "id": "MTMx-U2VjdGlvbnM="
+                        "href": "/stream/sectionsId/MTMx-U2VjdGlvbnM="
+                    }
+                ]
             },
             {
                 "name": "Entrepreneurship",
@@ -545,7 +762,7 @@
                 "href": "/stream/sectionsId/MTM4-U2VjdGlvbnM="
             },
             {
-                "name": "Recruitment and Careers",
+                "name": "Recruitment",
                 "id": "ZjU2ZGIyNDMtNWYwOS00YzcwLWJmN2MtYjE1OGNiN2Y1OTVl-U2VjdGlvbnM=",
                 "href": "/stream/sectionsId/ZjU2ZGIyNDMtNWYwOS00YzcwLWJmN2MtYjE1OGNiN2Y1OTVl-U2VjdGlvbnM="
             }
