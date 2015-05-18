@@ -24,6 +24,8 @@ To view the demo
 
     $ make demo
 
+**NOTE: Run `make pre-commit` before checking in**
+
 ## Todo
 
  * Move the nav configuration into the Lists API

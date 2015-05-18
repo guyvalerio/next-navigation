@@ -14,3 +14,6 @@ build:
 demo:
 	gulp build
 	obt demo --local --watch
+
+pre-commit: build
+	obt demo
