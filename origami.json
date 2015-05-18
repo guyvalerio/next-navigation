@@ -6,12 +6,7 @@
         {
             "path": "/demos/all.html",
             "expanded": true,
-            "description": ""
-        },
-        {
-            "path": "/demos/top-level.html",
-            "expanded": true,
-            "description": ""
+            "description": "All"
         }
     ],
     "supportStatus": "experimental",
