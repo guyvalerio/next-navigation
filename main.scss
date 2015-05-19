@@ -1,5 +1,11 @@
-@import "o-grid/main";
 @import "next-sass-setup/main";
+
+@include oColorsSetUseCase(standard, text, 'blue-2');
+@include oColorsSetUseCase(standard, background, 'cold-3');
+@include oColorsSetUseCase(hover, text, 'white');
+@include oColorsSetUseCase(hover, background, 'cold-2');
+@include oColorsSetUseCase(header, text, 'white');
+@include oColorsSetUseCase(header, border, 'grey-tint3');
 
 .next-navigation,
 .next-navigation__group__items {
@@ -7,9 +13,11 @@
 	margin: 0;
 	padding: 0;
 }
+.next-navigation {
+	@include oColorsFor(standard, text background);
+}
 .next-navigation--all {
 	@include oGridRow();
-	background-color: $next-grey-dark;
 
 	.next-navigation__group {
 		@include oGridColumn((default: 12, S: 6, M: 4, L:2));
@@ -32,26 +40,68 @@
 		}
 	}
 	.next-navigation__link {
+		@include oColorsFor(standard, text);
 		font-family: $fontSans;
-		color: $next-grey-lighter;
 		text-decoration: none;
 		padding: 5px;
 		display: block;
 		font-weight: 300;
 
 		&:hover {
-			background-color: $next-blue;
-			color: $next-white;
+			@include oColorsFor(hover, text background);
 		}
 	}
 	.next-navigation__group__header {
+		@include oColorsFor(header, border);
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
 		margin: 0;
-		border-bottom: 1px solid $next-grey-dark3;
 
 		.next-navigation__link {
-			color: $next-white;
+			@include oColorsFor(header, text);
 			font-size: 18px;
 			font-weight: 500;
 		}
+	}
+}
+.next-navigation--nav {
+	.next-navigation__group {
+		display: inline-block;
+
+		> .next-navigation__link {
+			font-family: $fontSans;
+			color: inherit;
+			text-decoration: none;
+			display: block;
+			line-height: 45px;
+			padding: 0 4px;
+			font-size: 14px;
+			background: none;
+			border: 0;
+			cursor: pointer;
+
+			&:hover,
+			&:focus,
+			&[aria-pressed] {
+				@include oColorsFor(hover, text background);
+			}
+			@include oGridRespondTo(M) {
+				padding: 0 7px;
+				font-size: 16px;
+			}
+			&:hover + .next-navigation__group__items {
+				display: block;
+			}
+		}
+	}
+	.next-navigation__group__items {
+		@include oColorsFor(standard, background);
+		display: none;
+		position: absolute;
+		left: 0;
+	}
+	.next-navigation__link {
+		color: inherit;
+		text-decoration: none;
 	}
 }

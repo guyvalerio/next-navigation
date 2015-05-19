@@ -5,6 +5,15 @@
 	{{#each nav}}
 	<li class="next-navigation__group">
 		<a class="next-navigation__link" href="{{href}}" data-trackable="{{name}}">{{name}}</a>
+        {{#if children}}
+        <ol class="next-navigation__group__items">
+            {{#each children}}
+                <li class="next-navigation__group__item">
+                    <a class="next-navigation__link" href="{{href}}" data-trackable="{{name}}">{{name}}</a>
+                </li>
+            {{/each}}
+        </ol>
+        {{/if}}
 	</li>
 	{{/each}}
 	<li class="next-navigation__group">

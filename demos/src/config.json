@@ -4,8 +4,14 @@
   },
   "demos": [
     {
+      "name": "nav",
+      "template": "templates/nav.html",
+      "description": "Nav"
+    },
+    {
       "name": "all",
-      "template": "templates/all.html"
+      "template": "templates/all.html",
+      "description": "All"
     }
   ]
 }

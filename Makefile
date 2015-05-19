@@ -16,4 +16,4 @@ demo:
 	obt demo --local --watch
 
 pre-commit: build
-	obt demo
+	obt demo --updateorigami
