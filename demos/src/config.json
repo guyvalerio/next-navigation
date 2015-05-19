@@ -9,9 +9,9 @@
       "description": "Nav"
     },
     {
-      "name": "more",
-      "template": "templates/more.html",
-      "description": "More"
+      "name": "all",
+      "template": "templates/all.html",
+      "description": "All"
     }
   ]
 }

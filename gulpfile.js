@@ -4,7 +4,9 @@ var gulp = require('gulp');
 var jsonlint = require('gulp-jsonlint');
 var data = require('gulp-data');
 var handlebars = require('gulp-compile-handlebars');
-var rename = require("gulp-rename");
+var rename = require('gulp-rename');
+
+var topLevelSections = ['world', 'companies', 'markets', 'opinion', 'work & career', 'life & arts'];
 
 gulp.task('test', function () {
 	return gulp.src('./config/*.json')
@@ -16,12 +18,12 @@ gulp.task('build', function () {
 	return gulp.src('./templates/**/*-template.html')
 		.pipe(data(function () {
 			return {
-				all: require('./config/nav.json'),
-				nav: require('./config/nav.json').filter(function (navItem) {
-					return ['world', 'companies', 'markets', 'opinion', 'work & career', 'life & arts'].indexOf(navItem.name.toLowerCase()) > -1;
+				all: require('./config/nav.json').map(function (navItem) {
+					navItem.isTopLevel = topLevelSections.indexOf(navItem.name.toLowerCase()) > -1;
+					return navItem;
 				}),
-				more: require('./config/nav.json').filter(function (navItem) {
-					return ['world', 'companies', 'markets', 'opinion', 'work & career', 'life & arts'].indexOf(navItem.name.toLowerCase()) === -1;
+				nav: require('./config/nav.json').filter(function (navItem) {
+					return topLevelSections.indexOf(navItem.name.toLowerCase()) > -1;
 				})
 			};
 		}))
