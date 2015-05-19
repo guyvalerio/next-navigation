@@ -19,6 +19,9 @@ gulp.task('build', function () {
 				all: require('./config/nav.json'),
 				nav: require('./config/nav.json').filter(function (navItem) {
 					return ['world', 'companies', 'markets', 'opinion', 'work & career', 'life & arts'].indexOf(navItem.name.toLowerCase()) > -1;
+				}),
+				more: require('./config/nav.json').filter(function (navItem) {
+					return ['world', 'companies', 'markets', 'opinion', 'work & career', 'life & arts'].indexOf(navItem.name.toLowerCase()) === -1;
 				})
 			};
 		}))

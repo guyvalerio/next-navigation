@@ -1,5 +1,14 @@
-@import "o-grid/main";
 @import "next-sass-setup/main";
+
+@include oColorsSetUseCase(nav, text, 'white');
+@include oColorsSetUseCase(nav, background, 'cold-3');
+@include oColorsSetUseCase(nav-hover, background, 'cold-2');
+@include oColorsSetUseCase(sub-nav, text, 'blue-2');
+@include oColorsSetUseCase(sub-nav, background, 'cold-2');
+@include oColorsSetUseCase(sub-nav-hover, text, 'white');
+@include oColorsSetUseCase(sub-nav-hover, background, 'cold-1');
+@include oColorsSetUseCase(header, text, 'white');
+@include oColorsSetUseCase(header, border, 'grey-tint3');
 
 .next-navigation,
 .next-navigation__group__items {
@@ -7,9 +16,12 @@
 	margin: 0;
 	padding: 0;
 }
-.next-navigation--all {
+.next-navigation {
+	font-family: $fontSans;
+}
+.next-navigation--more {
+	@include oColorsFor(sub-nav, text background);
 	@include oGridRow();
-	background-color: $next-grey-dark;
 
 	.next-navigation__group {
 		@include oGridColumn((default: 12, S: 6, M: 4, L:2));
@@ -33,25 +45,100 @@
 	}
 	.next-navigation__link {
 		font-family: $fontSans;
-		color: $next-grey-lighter;
 		text-decoration: none;
 		padding: 5px;
 		display: block;
 		font-weight: 300;
+		color: inherit;
 
 		&:hover {
-			background-color: $next-blue;
-			color: $next-white;
+			@include oColorsFor(sub-nav-hover, text background);
 		}
 	}
 	.next-navigation__group__header {
+		@include oColorsFor(header, border);
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
 		margin: 0;
-		border-bottom: 1px solid $next-grey-dark3;
 
 		.next-navigation__link {
-			color: $next-white;
+			@include oColorsFor(header, text);
 			font-size: 18px;
 			font-weight: 500;
 		}
+	}
+}
+.next-navigation--nav {
+	@include oColorsFor(nav, text background);
+
+	.next-navigation__group {
+		display: inline-block;
+
+		&:hover {
+			@include oColorsFor(nav-hover, background);
+
+			.next-navigation__group__items {
+				display: block;
+			}
+		}
+	}
+	.next-navigation__link {
+		display: block;
+		color: inherit;
+		text-decoration: none;
+		font-size: 14px;
+		padding: 0 4px;
+
+		@include oGridRespondTo(M) {
+			padding: 0 7px;
+			font-size: 16px;
+		}
+	}
+	.next-navigation__link--top-level {
+		color: inherit;
+		line-height: 45px;
+		background: none;
+		border: 0;
+		cursor: pointer;
+
+		&:focus {
+			@include oColorsFor(nav-hover, background);
+		}
+	}
+	.next-navigation__group__items {
+		@include oColorsFor(sub-nav, background);
+		padding: 10px 20px 20px 7px;
+		display: none;
+		position: absolute;
+		left: 0;
+	}
+	.next-navigation__group__item {
+		width: 200px;
+		float: left;
+
+		&:nth-child(3n+1) {
+			clear: left;
+		}
+	}
+	.next-navigation__link--sub-level {
+		@include oColorsFor(header, border);
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+		position: relative;
+		margin-right: 10px;
+
+		&:after {
+			@include nextIcon(arrow-right, oColorsGetColorFor(header, border), 10);
+			content: '';
+			position: absolute;
+			right: 0;
+			top: 10px;
+		}
+	}
+	.next-navigation__link--sub-level {
+		padding: 5px 10px 5px 0;
+	}
+	.next-navigation__link--sub-level:hover {
+		@include oColorsFor(sub-nav-hover, text background);
 	}
 }

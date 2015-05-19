@@ -4,6 +4,11 @@
     "origamiType": "module",
     "demos": [
         {
+            "path": "/demos/nav.html",
+            "expanded": true,
+            "description": "Nav"
+        },
+        {
             "path": "/demos/all.html",
             "expanded": true,
             "description": "All"
