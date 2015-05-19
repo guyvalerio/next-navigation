@@ -70,7 +70,6 @@
 }
 .next-navigation--nav {
 	@include oColorsFor(nav, text background);
-	position: relative;
 
 	.next-navigation__group {
 		display: inline-block;
@@ -78,7 +77,7 @@
 		&:hover {
 			@include oColorsFor(nav-hover, background);
 
-			.next-navigation__group__items {
+			.next-navigation__group__items--wrapper {
 				display: block;
 			}
 		}
@@ -108,13 +107,16 @@
 			@include oColorsFor(nav-hover, background);
 		}
 	}
-	.next-navigation__group__items {
+	.next-navigation__group__items--wrapper {
 		@include oColorsFor(sub-nav, background);
-		width: 607px;
-		padding: 10px 0 20px 7px;
+		width: 100%;
 		display: none;
 		position: absolute;
 		left: 0;
+	}
+	.next-navigation__group__items {
+		@include oGridRow();
+		padding: 10px 0 20px 7px;
 	}
 	.next-navigation__group__item {
 		width: 200px;
