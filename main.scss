@@ -1,8 +1,7 @@
 @import "next-sass-setup/main";
 
-@include oColorsSetUseCase(nav, text, 'blue-2');
+@include oColorsSetUseCase(nav, text, 'white');
 @include oColorsSetUseCase(nav, background, 'cold-3');
-@include oColorsSetUseCase(nav-hover, text, 'white');
 @include oColorsSetUseCase(nav-hover, background, 'cold-2');
 @include oColorsSetUseCase(sub-nav, text, 'blue-2');
 @include oColorsSetUseCase(sub-nav, background, 'cold-2');
@@ -76,7 +75,7 @@
 		display: inline-block;
 
 		&:hover {
-			@include oColorsFor(nav-hover, text background);
+			@include oColorsFor(nav-hover, background);
 
 			.next-navigation__group__items {
 				display: block;
@@ -103,7 +102,7 @@
 		cursor: pointer;
 
 		&:focus {
-			@include oColorsFor(nav-hover, text background);
+			@include oColorsFor(nav-hover, background);
 		}
 	}
 	.next-navigation__group__items {
