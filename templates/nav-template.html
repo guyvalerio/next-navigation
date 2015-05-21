@@ -4,17 +4,33 @@
 	</li>{{#each nav}}<li class="next-navigation__group">
 		<a class="next-navigation__link next-navigation__link--top-level" href="{{href}}" data-trackable="{{name}}">{{name}}</a>
         {{#if children}}
-        <div class="next-navigation__group__items--wrapper">
-	        <ol class="next-navigation__group__items">
-	            {{#each children}}
-	                <li class="next-navigation__group__item">
-	                    <a class="next-navigation__link next-navigation__link--sub-level" href="{{href}}" data-trackable="{{name}}">{{name}}</a>
-	                </li>
-	            {{/each}}
-	        </ol>
-        </div>
+        <ol class="next-navigation__group__items">
+            {{#each children}}
+            <li class="next-navigation__group__item">
+                <a class="next-navigation__link next-navigation__link--sub-level" href="{{href}}" data-trackable="{{name}}">{{name}}</a>
+            </li>
+            {{/each}}
+        </ol>
         {{/if}}
 	</li>{{/each}}<li class="next-navigation__group">
-		<a class="js-subnav-toggle next-navigation__link next-navigation__link--top-level" href="#next-footer__nav" data-trackable="subnav-toggle">More</a>
+		<div class="next-navigation__link next-navigation__link--top-level" data-trackable="More">More</div>
+		<ol class="next-navigation__group__items next-navigation__group__items--nested">
+			{{#each all}}
+			{{#unless isTopLevel}}
+			<li class="next-navigation__group__item">
+				<a class="next-navigation__link next-navigation__link--sub-level next-navigation__link--sub-level-header" href="{{href}}" data-trackable="{{name}}">{{name}}</a>
+		    	{{#if children}}
+		    	<ol class="next-navigation__group__sub-items">
+		        	{{#each children}}
+		            <li class="next-navigation__group__sub-item">
+		                <a class="next-navigation__link next-navigation__link--sub-level" href="{{href}}" data-trackable="{{name}}">{{name}}</a>
+		            </li>
+		        	{{/each}}
+		    	</ol>
+		    	{{/if}}
+	    	</li>
+	    	{{/unless}}
+			{{/each}}
+		</ol>
 	</li>
 </ol>

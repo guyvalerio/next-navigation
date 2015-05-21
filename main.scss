@@ -79,8 +79,8 @@
 		&:hover {
 			@include oColorsFor(nav-hover, background);
 
-			.next-navigation__group__items--wrapper {
-				display: block;
+			.next-navigation__group__items {
+				opacity: 1;
 			}
 		}
 	}
@@ -115,15 +115,14 @@
 			padding: 0;
 		}
 	}
-	.next-navigation__group__items--wrapper {
+	.next-navigation__group__items {
 		@include oColorsFor(sub-nav, background);
-		width: 100%;
-		display: none;
 		position: absolute;
 		left: 0;
+		opacity: 0;
+		transition: opacity 0.1s ease 0.2s;
 	}
 	.next-navigation__group__items {
-		@include oGridRow();
 		padding: 10px 0 20px 7px;
 	}
 	.next-navigation__group__item {
@@ -154,5 +153,17 @@
 	}
 	.next-navigation__link--sub-level:hover {
 		@include oColorsFor(sub-nav-hover, text background);
+	}
+	.next-navigation__link--sub-level-header {
+		font-weight: 500;
+		font-size: 18px;
+		color: #ffffff;
+	}
+	.next-navigation__group__items--nested .next-navigation__group__item {
+		clear: none !important;
+	}
+	.next-navigation__group__sub-items {
+		padding: 0;
+		list-style: none;
 	}
 }
