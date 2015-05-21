@@ -19,7 +19,7 @@
 .next-navigation {
 	font-family: $fontSans;
 }
-.next-navigation--more {
+.next-navigation--all {
 	@include oColorsFor(sub-nav, text background);
 	@include oGridRow();
 
