@@ -1,10 +1,13 @@
-<ol class="next-navigation next-navigation--nav">
-	<li class="next-navigation__group">
-		<a class="next-navigation__link next-navigation__link--top-level" href="/" data-trackable="Home">Home</a>
-	</li>{{#each nav}}<li class="next-navigation__group">
-		<a class="next-navigation__link next-navigation__link--top-level" href="{{href}}" data-trackable="{{name}}">{{name}}</a>
+<ol class="next-navigation next-navigation--nav js-global-nav">
+	<li class="next-navigation__group next-navigation__group--sections">
+		<a class="next-navigation__link next-navigation__link--top-level " href="/" data-trackable="Home">Home</a>
+	</li>{{#each nav}}<li class="next-navigation__group next-navigation__group--sections" data-o-component="o-expander">
+		<a class="next-navigation__link next-navigation__link--top-level js-sub-nav-toggle o-expander__toggle" href="{{href}}" data-trackable="{{name}}">{{name}}</a>
         {{#if children}}
-        <ol class="next-navigation__group__items">
+        <ol class="next-navigation__group__items o-expander__content">
+            <li class="next-navigation__group__item">
+                <a class="next-navigation__link next-navigation__link--sub-level" href="{{../href}}" data-trackable="All {{../name}}">All {{../name}}</a>
+            </li>
             {{#each children}}
             <li class="next-navigation__group__item">
                 <a class="next-navigation__link next-navigation__link--sub-level" href="{{href}}" data-trackable="{{name}}">{{name}}</a>
@@ -12,12 +15,14 @@
             {{/each}}
         </ol>
         {{/if}}
-	</li>{{/each}}<li class="next-navigation__group">
-		<div class="next-navigation__link next-navigation__link--top-level" data-trackable="More">More</div>
-		<ol class="next-navigation__group__items next-navigation__group__items--nested">
+	</li>{{/each}}<li class="next-navigation__group" data-o-component="o-expander">
+		<a href="#next-footer__nav" class="next-navigation__link next-navigation__link--top-level js-sub-nav-toggle o-expander__toggle" data-trackable="More">
+			<span class="next-navigation__link__text--mobile">Menu</span>
+			<span class="next-navigation__link__text--desktop">More</span>
+		</a>
+		<ol class="next-navigation__group__items next-navigation__group__items--nested o-expander__content">
 			{{#each all}}
-			{{#unless isTopLevel}}
-			<li class="next-navigation__group__item">
+			<li class="next-navigation__group__item{{#if isTopLevel}} next-navigation__group__item--top-level{{/if}}">
 				<a class="next-navigation__link next-navigation__link--sub-level next-navigation__link--sub-level-header" href="{{href}}" data-trackable="{{name}}">{{name}}</a>
 		    	{{#if children}}
 		    	<ol class="next-navigation__group__sub-items">
@@ -29,7 +34,6 @@
 		    	</ol>
 		    	{{/if}}
 	    	</li>
-	    	{{/unless}}
 			{{/each}}
 		</ol>
 	</li>

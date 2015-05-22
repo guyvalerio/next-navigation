@@ -1,12 +1,13 @@
 {
   "options": {
-    "sass": "main.scss"
+    "sass": "src/client/scss/main.scss"
   },
   "demos": [
     {
       "name": "nav",
       "template": "templates/nav.html",
-      "description": "Nav"
+      "description": "Nav",
+      "js": "demos/src/nav.js"
     },
     {
       "name": "all",

@@ -1,9 +1,16 @@
 {
   "name": "next-navigation",
   "dependencies": {
-    "next-sass-setup": "^6.0.0"
+    "next-sass-setup": "^6.0.0",
+    "o-expander": "~1.4.1",
+    "o-hoverable": "~2.0.0"
   },
   "main": [
-    "main.scss"
-  ]
+    "src/client/scss/main.scss",
+    "src/client/js/main.js"
+  ],
+  "resolutions": {
+    "o-fonts": "^2.0.0",
+    "o-ft-icons": "next"
+  }
 }

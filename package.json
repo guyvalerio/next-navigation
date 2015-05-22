@@ -1,7 +1,7 @@
 {
   "name": "ft-next-navigation",
   "version": "0.0.0",
-  "main": "./src/main.js",
+  "main": "./src/server/main.js",
   "dependencies": {
     "denodeify": "^1.2.1",
     "es6-promise": "^2.1.1"
