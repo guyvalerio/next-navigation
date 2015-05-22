@@ -885,5 +885,9 @@
     {
         "name": "Alphaville",
         "href": "//ftalphaville.ft.com"
+    },
+    {
+        "name": "fastFT",
+        "href": "/fastft"
     }
 ]
