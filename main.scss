@@ -70,7 +70,6 @@
 }
 .next-navigation--nav {
 	@include oColorsFor(nav, text background);
-	position: relative;
 
 	.next-navigation__group {
 		display: inline-block;
@@ -85,6 +84,7 @@
 			content: '';
 		}
 		#{$o-hoverable-if-hover-enabled} &:hover .next-navigation__group__items {
+			z-index: 2;
 			display: block;
 		}
 	}
@@ -141,11 +141,12 @@
 	}
 	.next-navigation__group__items {
 		@include oColorsFor(sub-nav, background);
-		padding: 0 7px 20px;
+		padding: 0 0 20px 10px;
 		position: absolute;
 		left: 0;
 		display: none;
-		box-shadow: 0px 0px 3px 2px oColorsGetColorFor(sub-nav, background);
+		box-shadow: 3px 3px 3px 2px oColorsGetColorFor(sub-nav, background);
+		z-index: 1;
 
 		&[aria-expanded='true'] {
 			display: block;
