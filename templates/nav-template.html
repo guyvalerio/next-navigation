@@ -1,6 +1,6 @@
 <ol class="next-navigation next-navigation--nav js-global-nav">
 	<li class="next-navigation__group next-navigation__group--sections">
-		<a class="next-navigation__link next-navigation__link--top-level " href="/" data-trackable="Home">Home</a>
+		<a class="next-navigation__link next-navigation__link--top-level" href="/" data-trackable="Home">Home</a>
 	</li>{{#each nav}}<li class="next-navigation__group next-navigation__group--sections" data-o-component="o-expander">
 		<a class="next-navigation__link next-navigation__link--top-level js-sub-nav-toggle o-expander__toggle" href="{{href}}" data-trackable="{{name}}">{{name}}</a>
         {{#if children}}
@@ -15,7 +15,7 @@
             {{/each}}
         </ol>
         {{/if}}
-	</li>{{/each}}<li class="next-navigation__group" data-o-component="o-expander">
+	</li>{{/each}}<li class="next-navigation__group next-navigation__group--more" data-o-component="o-expander">
 		<a href="#next-footer__nav" class="next-navigation__link next-navigation__link--top-level js-sub-nav-toggle o-expander__toggle" data-trackable="More">
 			<span class="next-navigation__link__text--mobile">Menu</span>
 			<span class="next-navigation__link__text--desktop">More</span>

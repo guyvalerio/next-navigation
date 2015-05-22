@@ -77,6 +77,13 @@
 		// Because <button> elements sit on high baseline in FF
 		vertical-align: bottom;
 
+		&:after {
+			content: '|';
+			display: inline-block;
+		}
+		&:last-child:after {
+			content: '';
+		}
 		#{$o-hoverable-if-hover-enabled} &:hover .next-navigation__group__items {
 			display: block;
 		}
@@ -100,6 +107,7 @@
 		}
 	}
 	.next-navigation__link--top-level {
+		display: inline-block;
 		color: inherit;
 		line-height: 45px;
 		background: none;
@@ -133,11 +141,11 @@
 	}
 	.next-navigation__group__items {
 		@include oColorsFor(sub-nav, background);
-		padding: 10px 0 20px 7px;
-		min-width: 610px;
+		padding: 0 7px 20px;
 		position: absolute;
 		left: 0;
 		display: none;
+		box-shadow: 0px 0px 3px 2px oColorsGetColorFor(sub-nav, background);
 
 		&[aria-expanded='true'] {
 			display: block;
@@ -151,6 +159,14 @@
 			clear: left;
 		}
 	}
+	.next-navigation__group--more {
+		.next-navigation__group__items {
+			padding-bottom: 0;
+		}
+		.next-navigation__group__item {
+			margin-bottom: 20px;
+		}
+	}
 	.next-navigation__group__item--top-level {
 		@include oGridRespondTo(L) {
 			display: none;
@@ -162,6 +178,7 @@
 		border-bottom-style: solid;
 		position: relative;
 		margin-right: 10px;
+		padding: 5px 10px 5px 0;
 
 		&:after {
 			@include nextIcon(arrow-right, oColorsGetColorFor(header, border), 10);
@@ -173,9 +190,6 @@
 		&:hover {
 			@include oColorsFor(sub-nav-hover, background);
 		}
-	}
-	.next-navigation__link--sub-level {
-		padding: 5px 10px 5px 0;
 	}
 	.next-navigation__link--sub-level-header {
 		font-weight: 500;
