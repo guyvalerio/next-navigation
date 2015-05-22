@@ -1,5 +1,5 @@
 'use strict';
 
-var nav = require('../../src/client/js/main.js');
+var nav = require('../../main.js');
 
 nav.init();

@@ -2,7 +2,7 @@
 
 require('o-hoverable');
 var Expander = require('o-expander');
-var isOutside = require('./is-outside');
+var isOutside = require('./src/client/js/is-outside');
 
 function $(selector) {
 	return Array.prototype.slice.call(document.querySelectorAll(selector));

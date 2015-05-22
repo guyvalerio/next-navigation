@@ -6,8 +6,8 @@
     "o-hoverable": "~2.0.0"
   },
   "main": [
-    "src/client/scss/main.scss",
-    "src/client/js/main.js"
+    "main.scss",
+    "main.js"
   ],
   "resolutions": {
     "o-fonts": "^2.0.0",

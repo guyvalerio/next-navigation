@@ -1,6 +1,6 @@
 {
   "options": {
-    "sass": "src/client/scss/main.scss"
+    "sass": "main.scss"
   },
   "demos": [
     {
